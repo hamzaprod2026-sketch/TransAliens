@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Trans Aliens</title>
+    <meta name="description" content="Contactez l'équipe Trans Aliens pour vos projets de transport, de logistique et de livraison. Demandez votre devis en ligne.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header id="header">
+        <a href="index.html" class="logo">TRANS ALIENS</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="services.html">Nos services</a></li>
+            <li><a href="expertise.html">Notre expertise</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="contact.html" class="btn-primary">Demander un devis</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </header>
+
+    <section class="hero" style="min-height: 40vh; padding-top: 12rem; padding-bottom: 2rem;">
+        <div class="hero-content" style="max-width: 800px;">
+            <span class="section-tag">ÉCHANGEONS</span>
+            <h1>Parlons de votre projet.</h1>
+            <p>Notre équipe est à votre disposition pour étudier vos besoins en transport, logistique et livraison.</p>
+        </div>
+    </section>
+
+    <section style="padding-top: 2rem;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; max-width: 1200px; margin: 0 auto; align-items: start;">
+            
+            <div>
+                <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">Nos coordonnées</h2>
+                <p style="margin-bottom: 2rem;">Vous pouvez nous contacter directement via les informations ci-dessous ou en remplissant le formulaire de contact.</p>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <strong style="color: var(--forest-green); display: block; margin-bottom: 0.3rem;">Adresse</strong>
+                    <p>[Adresse physique réelle à compléter]</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <strong style="color: var(--forest-green); display: block; margin-bottom: 0.3rem;">E-mail</strong>
+                    <p>contact@trans-aliens.com</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <strong style="color: var(--forest-green); display: block; margin-bottom: 0.3rem;">Téléphone</strong>
+                    <p>[Numéro professionnel à compléter]</p>
+                </div>
+            </div>
+
+            <div style="background: var(--white); padding: 3rem; border-radius: 20px; box-shadow: 0 15px 35px rgba(41, 43, 39, 0.05);">
+                <form id="contactForm">
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="name" style="display: block; font-weight: 600; margin-bottom: 0.5rem; font-size: 0.9rem;">Nom et prénom *</label>
+                        <input type="text" id="name" style="width: 100%; padding: 0.9rem; border: 1px solid rgba(41, 43, 39, 0.2); border-radius: 8px; font-family: inherit;" required>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="email" style="display: block; font-weight: 600; margin-bottom: 0.5rem; font-size: 0.9rem;">Adresse e-mail *</label>
+                        <input type="email" id="email" style="width: 100%; padding: 0.9rem; border: 1px solid rgba(41, 43, 39, 0.2); border-radius: 8px; font-family: inherit;" required>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="phone" style="display: block; font-weight: 600; margin-bottom: 0.5rem; font-size: 0.9rem;">Téléphone</label>
+                        <input type="tel" id="phone" style="width: 100%; padding: 0.9rem; border: 1px solid rgba(41, 43, 39, 0.2); border-radius: 8px; font-family: inherit;">
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="subject" style="display: block; font-weight: 600; margin-bottom: 0.5rem; font-size: 0.9rem;">Sujet</label>
+                        <input type="text" id="subject" style="width: 100%; padding: 0.9rem; border: 1px solid rgba(41, 43, 39, 0.2); border-radius: 8px; font-family: inherit;">
+                    </div>
+                    <div style="margin-bottom: 2rem;">
+                        <label for="message" style="display: block; font-weight: 600; margin-bottom: 0.5rem; font-size: 0.9rem;">Message *</label>
+                        <textarea id="message" rows="4" style="width: 100%; padding: 0.9rem; border: 1px solid rgba(41, 43, 39, 0.2); border-radius: 8px; font-family: inherit;" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%; text-align: center;">Envoyer le message</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--cream);">TRANS ALIENS</h4>
+                <p>Votre partenaire de référence en matière de transport, de logistique et de solutions de livraison sur mesure.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="services.html">Nos services</a></li>
+                    <li><a href="expertise.html">Notre expertise</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html#transport">Transport</a></li>
+                    <li><a href="services.html#logistique">Logistique</a></li>
+                    <li><a href="services.html#livraison">Livraison</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Casablanca, Maroc</p>
+                <p>contact@trans-aliens.com</p>
+                <p>+212 7 03 17 17 57</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Trans Aliens. Tous droits réservés.</p>
+            <p>Design haut de gamme & contemporain.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
